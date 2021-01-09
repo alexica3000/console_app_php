@@ -9,4 +9,5 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 $app = new Application('console app');
 $app->add(new SayHello());
 $app->add(new ShowString());
+$app->add(new AskUser());
 $app->run();
