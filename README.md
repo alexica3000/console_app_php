@@ -1,1 +1,2 @@
-# console_app_php
+# symfony-command-application
+Building a single Command Application
